@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather+Sans&display=swap');
+.bg {
+    background-color: #000;
+    height: 100vh;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color:red;
+}
+
+.title {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 34px;
+    padding-top: 30px;
+}
+
+* {
+    margin: 0;
+}
+
+.card_inline {
+    display: inline-flex;
+    padding-top: 80px;
+    text-align: center;
+    justify-content: center
+}
+
+.card {
+    background-color: transparent;
+    transition: 0.3s all ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1)
+}
+
+.card_inline li {
+    list-style: none;
+    width: 300px;
+}
+
+.bg0 {
+    background-color: #800080;
+}
+
+.bg1 {
+    background-color: #a48111
+}
+
+.bg2 {
+    background-color: green
+}
+
+.bg3 {
+    background-color: red
+}
+
+.bg4 {
+    background-color: #00cbfe
+}
+
+.bg5 {
+    background-color: orange
+}
+
+.card_inner {
+    color: #fff;
+    padding: 40px 20px;
+    margin-right: 30px;
+}
+
+.card .last {
+    padding: 20px;
+}
+
+.card_inner h1 {
+    font-size: 35px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.card_inner span {
+    font-size: 25px;
+}
